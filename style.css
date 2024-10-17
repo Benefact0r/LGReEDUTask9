@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 1440px;
+    padding: 80px 165px;
+}
+
+.mainDivContainer {
+    background-color: #FAFAFA;
+    display: flex;
+    width: 80vw;
+    padding: 80px 165px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.containerHeader {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    color: #4D4F62;
+}
+
+.containerHeaderTop {
+    display: flex;
+    width: 540px;
+    height: 168px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    padding-left: 450px;
+    padding-top: 80px;
+    padding-right: 450px;
+    padding-bottom: 64px;
+}
+
+.containerHeaderTopHeader {
+    width: 444px;
+    height: 102px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 66px;
+}
+
+.containerHeaderTopBody {
+    height: 50px;
+    width: 540px;
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: 0.104px;
+}
+
+.containerBody {
+    display: flex;
+    align-items: center;
+
+}
+
+.containerBodyTopClass {
+
+}
+
+.containerBodyMidClass {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBodyBotClass {
+
+}
+
+
+h2 {
+    height: 54px;
+    width: 445px;
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    padding-top: 80px;
+}
+
+h3 {
+    padding-top: 2px;
+    width: 441px;
+    height: 54px;
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    padding-bottom: 16px;
+}
